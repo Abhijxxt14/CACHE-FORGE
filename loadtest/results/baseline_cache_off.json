@@ -1,0 +1,18 @@
+{
+  "scenario": "Baseline (Cache OFF)",
+  "workload": "read_heavy",
+  "distribution": "zipfian",
+  "total_requests": 300,
+  "errors": 0,
+  "duration_s": 0.33,
+  "rps": 920.7,
+  "latencies_ms": {
+    "avg": 9.97,
+    "p50": 9.74,
+    "p95": 13.88,
+    "p99": 17.15
+  },
+  "hit_ratio": 0.0,
+  "db_queries": 300,
+  "memory_bytes": 0
+}

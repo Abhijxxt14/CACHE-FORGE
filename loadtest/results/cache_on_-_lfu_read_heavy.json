@@ -1,0 +1,18 @@
+{
+  "scenario": "Cache ON - LFU (Read Heavy)",
+  "workload": "read_heavy",
+  "distribution": "zipfian",
+  "total_requests": 300,
+  "errors": 0,
+  "duration_s": 0.47,
+  "rps": 638.0,
+  "latencies_ms": {
+    "avg": 13.57,
+    "p50": 12.87,
+    "p95": 23.0,
+    "p99": 29.66
+  },
+  "hit_ratio": 0.6993,
+  "db_queries": 177,
+  "memory_bytes": 23651
+}

@@ -1,0 +1,18 @@
+{
+  "scenario": "Cache ON - LRU (Mixed 70/30)",
+  "workload": "mixed",
+  "distribution": "zipfian",
+  "total_requests": 300,
+  "errors": 0,
+  "duration_s": 0.55,
+  "rps": 549.6,
+  "latencies_ms": {
+    "avg": 16.48,
+    "p50": 15.63,
+    "p95": 27.51,
+    "p99": 31.95
+  },
+  "hit_ratio": 0.4824,
+  "db_queries": 287,
+  "memory_bytes": 22648
+}

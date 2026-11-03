@@ -1,0 +1,18 @@
+{
+  "scenario": "Cache ON - FIFO (Read Heavy)",
+  "workload": "read_heavy",
+  "distribution": "zipfian",
+  "total_requests": 300,
+  "errors": 0,
+  "duration_s": 0.36,
+  "rps": 823.8,
+  "latencies_ms": {
+    "avg": 10.83,
+    "p50": 10.4,
+    "p95": 17.23,
+    "p99": 19.88
+  },
+  "hit_ratio": 0.6157,
+  "db_queries": 219,
+  "memory_bytes": 23583
+}

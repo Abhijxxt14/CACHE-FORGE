@@ -1,0 +1,18 @@
+{
+  "scenario": "Cache ON - LRU (Uniform Worst-Case)",
+  "workload": "read_heavy",
+  "distribution": "uniform",
+  "total_requests": 300,
+  "errors": 0,
+  "duration_s": 0.51,
+  "rps": 584.6,
+  "latencies_ms": {
+    "avg": 15.52,
+    "p50": 15.56,
+    "p95": 22.2,
+    "p99": 25.78
+  },
+  "hit_ratio": 0.2613,
+  "db_queries": 429,
+  "memory_bytes": 23476
+}
